@@ -1,0 +1,12 @@
+{
+    ".url": {
+        "SYNO.SDS.VIM": {
+            "allUsers": true,
+            "desc": "VIM text editor",
+            "icon": "images/{0}.png",
+            "title": "VIM v9.0.1276",
+            "type": "url"
+        }
+    }
+}
+
