@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
  
+WORKDIR /data
+
 RUN apt -y update \
     && apt -y upgrade \
     && apt install -y \
@@ -8,12 +10,11 @@ RUN apt -y update \
         cifs-utils \
         nodejs \
         python3 \
-        python3-pip
+        python3-pip \
+    && mkdir -p /data/toolkit/source
 
 ENV ENV="/etc/profile"
 
 COPY .dev/profile.d/* /etc/profile.d/
-
-WORKDIR /data
 
 CMD [ "tail", "-f", "/dev/null" ]

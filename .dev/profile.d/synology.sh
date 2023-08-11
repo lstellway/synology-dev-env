@@ -1,6 +1,6 @@
 TOOLKIT_DIR="/data/toolkit"
 PKGSCRIPTS_DIR="${TOOLKIT_DIR}/pkgscripts-ng"
-PKGSCRIPTS_GIT="https://github.com/SynologyOpenSource/pkgscripts-ng"
+PKGSCRIPTS_GIT="https://github.com/SynologyOpenSource/pkgscripts-ng.git"
 SYNO_CPU_URL="https://kb.synology.com/en-global/DSM/tutorial/What_kind_of_CPU_does_my_NAS_have"
 
 # Usage

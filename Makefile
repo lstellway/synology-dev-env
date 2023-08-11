@@ -19,5 +19,6 @@ shell:
 	@echo "Initializing terminal session..."
 	$(call dev-compose, exec -it synology-dev-env /bin/bash -l)
 
+.PHONY: copy-results
 copy-results:
 	docker cp synology-dev-env:/data/toolkit/result_spk .
